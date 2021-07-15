@@ -9,7 +9,7 @@ For this tutorial, you would need the following hardware and software components
 
 ## Step 0 - Setup
 1. Download content of this repo;
-2. Install python-kasa library, either by using pip command as shown below or manually as described on [PyPi] (https://pypi.org/project/python-kasa):
+2. Install python-kasa library, either by using pip command as shown below or manually as described on [PyPi](https://pypi.org/project/python-kasa) Web page:
 ```
 pip install python-kasa
 ```
