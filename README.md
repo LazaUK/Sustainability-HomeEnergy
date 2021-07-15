@@ -1,5 +1,5 @@
 # Sustainability - Measuring energy consumption at home
-This is my contribution to the open source project, based on the original idea from Anurag Peshne and Chris Templeman to measure **energy consumption from home for the work-related activities**.
+This is my contribution to the open source project, based on the original idea from Anurag Peshne and Chris Templeman to measure *energy consumption from home for the work-related activities*.
 
 ## Pre-requisites: 
 For this tutorial, you would need the following hardware components:
