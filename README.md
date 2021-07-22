@@ -5,7 +5,7 @@ This is my contribution to the open source project, based on the original idea f
 For this tutorial, you would need the following hardware and software components:
 - Kasa Smart Wi-Fi Strip or Plug. See the [TP-Link Web site](https://www.tp-link.com/uk/home-networking/smart-plug/hs100) for available models that support *Energy Monitoring*. For testing purposes, I'm using Kasa Mini Smart Plug (**KP115**);
 - Computer with the Internet connectivity and pre-installed Python 3.x;
-- Azure subscription to provision backend cloud resources
+- Azure subscription to provision backend cloud resources.
 
 ## Step 0 - Setup
 1. Download content of this repo;
