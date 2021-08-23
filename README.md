@@ -10,9 +10,14 @@ For this tutorial, you would need the following hardware and software components
 
 ## Step 0 - Setup
 1. Download content of this repo;
-2. Install python-kasa library, either by using pip command as shown below or manually as described on [PyPi](https://pypi.org/project/python-kasa) Web page:
+2. Install python-kasa library, either by using pip command as shown below or manually as described on [PyPi](https://pypi.org/project/python-kasa/) Web page:
 ```
 pip install python-kasa
 ```
+3. Install Azure IoT Device SDK for Python as described on [PyPi](https://pypi.org/project/azure-iot-device/) Web page:
+```
+pip install azure-iot-device
+```
+
 
 <TBC>
