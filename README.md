@@ -19,5 +19,6 @@ pip install python-kasa
 pip install azure-iot-device
 ```
 
+## Step 1 - Azure Setup
 
 <TBC>
