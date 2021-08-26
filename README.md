@@ -8,7 +8,7 @@ For this tutorial, you would need the following hardware and software components
 - Computer with the Internet connectivity and pre-installed Python 3.x;
 - Azure subscription to provision backend cloud resources.
 
-## Step 0 - Setup
+## Step 0 - Client Setup
 1. Download content of this repo;
 2. Install python-kasa library, either by using pip command as shown below or manually as described on this [PyPi](https://pypi.org/project/python-kasa/) Web page:
 ```
