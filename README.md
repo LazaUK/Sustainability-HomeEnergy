@@ -21,4 +21,7 @@ pip install azure-iot-device
 
 ## Step 1 - Azure Setup
 
+1. Deploy Azure IoT Hub resource in your Azure subscription;
+2. 
+
 <TBC>
