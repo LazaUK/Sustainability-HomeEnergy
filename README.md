@@ -26,6 +26,9 @@ pip install azure-iot-device
 ![Step1a](/images/Step1a.png)
 3. Open newly created IoT device record and copy one of its connection strings (either primary or secondary:
 ![Step1b](/images/Step1b.png)
+4. Open downloaded DemoKasa.py file and update the value of the CONNECTION_STRING variable with the copied connection string from the step above:
+![Step1c](/images/Step1c.png)
+5. 
 
 
 <TBC>
