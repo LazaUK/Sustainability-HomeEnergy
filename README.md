@@ -24,6 +24,8 @@ pip install azure-iot-device
 1. Deploy Azure IoT Hub resource in your Azure subscription;
 2. In Azure IoT Hub, add new IoT device corresponding to your SmartPlug using "Add Device" under Explorers -> IoT devices:
 ![Step1a](/images/Step1a.png)
-3. 
+3. Open newly created IoT device record and copy one of its connection strings (either primary or secondary:
+![Step1b](/images/Step1b.png)
+
 
 <TBC>
