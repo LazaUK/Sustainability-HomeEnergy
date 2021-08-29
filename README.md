@@ -28,7 +28,8 @@ pip install azure-iot-device
 ![Step1b](/images/Step1b.png)
 4. Open downloaded DemoKasa.py file and update the value of the CONNECTION_STRING variable with the copied connection string from the step above:
 ![Step1c](/images/Step1c.png)
-5. 
+5. Deploy Azure Stream Analytics job resource in your Azure subscription;
+6. 
 
 
 <TBC>
