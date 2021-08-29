@@ -29,9 +29,15 @@ pip install azure-iot-device
 4. Open downloaded DemoKasa.py file and update the value of the CONNECTION_STRING variable with the copied connection string from the previous action above:
 ![Step1c](/images/Step1c.png)
 
-## Step 2 - Azure Stream Analytics configuration
+
+## Step 2 - Azure SQL configuration
+
+1. 
+
+## Step 3 - Azure Stream Analytics configuration
 
 1. Deploy Azure Stream Analytics job resource in your Azure subscription;
 2. Add Azure IoT Hub from Step 1 above as a stream input for your Azure Stream Analytics job:
-![Step2a](/images/Step2a.png)
-
+![Step3a](/images/Step3a.png)
+3. Add PowerBI as an output for your Azure Stream Analytics job:
+![Step3b](/images/Step3b.png)
