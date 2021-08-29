@@ -19,17 +19,19 @@ pip install python-kasa
 pip install azure-iot-device
 ```
 
-## Step 1 - Azure Setup
+## Step 1 - Azure IoT Hub configuration
 
 1. Deploy Azure IoT Hub resource in your Azure subscription;
 2. In Azure IoT Hub, add new IoT device corresponding to your SmartPlug using "Add Device" under Explorers -> IoT devices:
 ![Step1a](/images/Step1a.png)
 3. Open newly created IoT device record and copy one of its connection strings (either primary or secondary:
 ![Step1b](/images/Step1b.png)
-4. Open downloaded DemoKasa.py file and update the value of the CONNECTION_STRING variable with the copied connection string from the step above:
+4. Open downloaded DemoKasa.py file and update the value of the CONNECTION_STRING variable with the copied connection string from the previous action above:
 ![Step1c](/images/Step1c.png)
-5. Deploy Azure Stream Analytics job resource in your Azure subscription;
-6. 
 
+## Step 2 - Azure Stream Analytics configuration
 
-<TBC>
+1. Deploy Azure Stream Analytics job resource in your Azure subscription;
+2. Add Azure IoT Hub from Step 1 above as a stream input for your Azure Stream Analytics job:
+![Step2a](/images/Step2a.png)
+
