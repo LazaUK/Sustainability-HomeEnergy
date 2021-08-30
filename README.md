@@ -1,4 +1,4 @@
-# Sustainability - Measuring energy consumption at home
+# Sustainability Hack - Measuring energy consumption at home
 This is my contribution to the open source project, based on the original idea from my Microsoft colleagues Anurag Peshne and Chris Templeman to measure *energy consumption from home for the work-related activities*.
 > **Note:** This solution has been built and tested in Python 3.8.
 
