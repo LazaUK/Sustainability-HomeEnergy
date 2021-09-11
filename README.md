@@ -48,5 +48,5 @@ CREATE TABLE [dbo].[energydata](
 1. Deploy Azure Stream Analytics job resource in your Azure subscription;
 2. Add Azure IoT Hub from Step 1 above as a stream input for your Azure Stream Analytics job:
 ![Step3a](/images/Step3a.png)
-3. Add PowerBI as an output for your Azure Stream Analytics job:
+3. Add PowerBI as a real-time telemetry output from your Azure Stream Analytics job:
 ![Step3b](/images/Step3b.png)
