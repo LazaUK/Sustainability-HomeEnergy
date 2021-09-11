@@ -52,4 +52,32 @@ CREATE TABLE [dbo].[energydata](
 ![Step3b](/images/Step3b.png)
 4. Add Azure SQL as a historical data output from your Azure Stream Analytics job:
 ![Step3c](/images/Step3c.png)
-6. 
+5. Create a new query in Stream Analytics that can analyse input from IoT Hub and redirect specific values to PowerBI and Azure SQL DB based on the values of telemetryContent custom property:
+```
+WITH data AS
+(
+    SELECT
+        *,
+        GetMetadataPropertyValue(MyIotHub, '[User].[telemetryContent]') AS telemetryContent
+    FROM MyIoTHub 
+)
+
+SELECT 
+    current_ma, voltage_mv, power_mw, total_wh, EventProcessedUtcTime as time
+INTO 
+    MyBIRT
+FROM data
+WHERE
+    telemetryContent = 'RealTime_Telemetry'
+
+SELECT 
+    teledate, monthly_stats, yearly_stats
+INTO 
+    MySQLDB
+FROM data
+WHERE
+    telemetryContent = 'Monthly_Stats'
+```
+6. Activate your Azure Stream Analytics job.
+
+## Step 4 - Visualise content in PowerBI dashboard
