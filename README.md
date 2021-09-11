@@ -33,7 +33,7 @@ pip install azure-iot-device
 ## Step 2 - Azure SQL configuration
 
 1. Deploy Azure SQL database in your Azure subscription;
-2. Create a table in the newly-deployed Azure SQL database, using the following SQL script:
+2. Create a table in the newly-deployed Azure SQL database, using the following SQL script, so that you can store their daily and monthly stats:
 ```
 CREATE TABLE [dbo].[energydata](
     [id] [int] IDENTITY(1, 1) NOT NULL,
