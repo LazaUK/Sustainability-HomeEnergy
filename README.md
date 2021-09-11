@@ -50,3 +50,6 @@ CREATE TABLE [dbo].[energydata](
 ![Step3a](/images/Step3a.png)
 3. Add PowerBI as a real-time telemetry output from your Azure Stream Analytics job:
 ![Step3b](/images/Step3b.png)
+4. Add Azure SQL as a historical data output from your Azure Stream Analytics job:
+![Step3c](/images/Step3c.png)
+6. 
