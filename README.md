@@ -32,7 +32,8 @@ pip install azure-iot-device
 
 ## Step 2 - Azure SQL configuration
 
-1. 
+1. Deploy Azure SQL database in your Azure subscription;
+2. 
 
 ## Step 3 - Azure Stream Analytics configuration
 
