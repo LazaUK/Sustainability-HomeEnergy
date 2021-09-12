@@ -81,3 +81,6 @@ WHERE
 6. Activate your Azure Stream Analytics job.
 
 ## Step 4 - Visualise content in PowerBI dashboard
+
+Finally, you can visualise your Energy Metering data in PowerBI. Below is an example of a PowerBI dashboard with the real-time telemetry and historical stats.
+![Step4](/images/Step4.png)
